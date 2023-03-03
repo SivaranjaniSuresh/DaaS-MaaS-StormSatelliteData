@@ -158,7 +158,7 @@ To run this project, you will need:
 - Create two DAGs in Airflow: one for scraping the metadata from the GOES-18 S3 bucket and the other for scraping the metadata from the NEXRAD S3 bucket. - These DAGs should run at 1AM and 1:30AM UTC every day (the geos-etl.py and nexrad-etl.py files are the dags and are already pasted into the "app" directory).
 - Store the scraped data in a Google Cloud Storage bucket.
 - Build Docker images for the Streamlit app and FastAPI app, and push them to Docker Hub.
-- Run the Docker Compose file to start the Streamlit app and FastAPI app in the same VM instance (create a new directory in the instance and copy paste the docker-compose.yml file found in the main project directory of this repository). 
+- Run the Docker Compose file to start the Streamlit app and FastAPI app in the same VM instance (create a new directory in the instance and copy paste the docker-compose.yml file found in the 'feapps' folder in the main project directory of this repository). 
 - The AWS Access and Secret keys should be passed as environment variables in the Docker Compose file. (The .env file must be present in both "app" directory created for airlfow and in the other directory created for streamlit & fastapi).
 
 ### .env file for airflow:

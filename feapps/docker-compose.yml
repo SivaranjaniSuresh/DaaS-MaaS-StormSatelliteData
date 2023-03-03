@@ -1,0 +1,25 @@
+version: '3'
+services:
+  streamlit:
+    image: <your_dockerhub_repo>/streamlit_app_a3
+    environment:
+      - SECRET_KEY=${SECRET_KEY}
+      - ALGORITHM=${ALGORITHM}
+    ports:
+      - "8000:8080"
+  fastapi:
+    image: <your_dockerhub_repo>/fast_api_a3
+    environment:
+      - AWS_ACCESS_KEY=${AWS_ACCESS_KEY}
+      - AWS_SECRET_KEY=${AWS_SECRET_KEY}
+      - AWS_LOG_ACCESS_KEY=${AWS_LOG_ACCESS_KEY}
+      - AWS_LOG_SECRET_KEY=${AWS_LOG_SECRET_KEY}
+      
+      - SECRET_KEY=${SECRET_KEY}
+      - ALGORITHM=${ALGORITHM}
+      - ACCESS_TOKEN_EXPIRE_MINUTES=${ACCESS_TOKEN_EXPIRE_MINUTES}
+    volumes:
+      - ./application/key.json:/fastapi/key.json
+      - /home/ubuntu/app/working_data/users.db:/fastapi/users.db
+    ports:
+      - "8090:8000"
