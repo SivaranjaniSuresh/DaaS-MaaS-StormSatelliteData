@@ -1,0 +1,35 @@
+id,username,request_type,api_endpoint,response_code,description,timestamp
+1,karan,POST,get_goes_url,200,File found in GEOS-18 S3 bucket,2023-02-28 01:43:59.765216
+2,karan,POST,get_goes_url,404,File not found in GEOS-18 S3 bucket,2023-02-28 01:44:55.407135
+3,lokesh,POST,get_goes_url,200,File found in GEOS-18 S3 bucket,2023-03-01 01:46:38.342005
+4,karan,POST,get_nexrad_url,200,File found in NEXRAD S3 bucket,2023-03-01 01:50:26.168967
+5,karan,GET,get_file_names_geos,200,Number of files: 192,2023-03-01 03:38:35.957103
+6,karan,POST,get_goes_url,200,File found in GEOS-18 S3 bucket,2023-03-01 03:39:01.549048
+7,karan,POST,get_goes_url,200,File found in GEOS-18 S3 bucket,2023-03-01 03:40:29.162584
+8,karan,POST,download_and_upload_s3_file,200,File uploaded to damg7245-noaa-assignment at goes/OR_ABI-L1b-RadC-M6C01_G18_s20230572301178_e20230572303551_c20230572303583.nc,2023-03-01 03:40:50.419064
+9,lokesh,GET,get_file_names_nexrad,200,Number of files: 236,2023-03-01 03:42:39.840892
+10,lokesh,POST,get_nexrad_url,200,File found in NEXRAD S3 bucket,2023-03-01 03:42:56.751081
+11,lokesh,POST,download_and_upload_s3_file,200,File uploaded to damg7245-noaa-assignment at nexrad/KABR20191008_000203_V06,2023-03-01 03:43:18.717223
+12,karan,PUT,update_subscription,200,"Subscription updated: service=Gold - (50$), calls_remaining=15",2023-03-01 03:47:38.582811
+13,karan,GET,get_file_names_geos,200,Number of files: 192,2023-03-01 17:33:56.522456
+14,karan,POST,get_goes_url,200,File found in GEOS-18 S3 bucket,2023-03-01 17:33:58.486657
+15,karan,POST,download_and_upload_s3_file,200,File already present in the bucket,2023-03-01 17:34:00.415004
+16,karan,GET,get_file_names_nexrad,200,Number of files: 204,2023-03-01 17:34:11.135016
+17,karan,POST,get_nexrad_url,200,File found in NEXRAD S3 bucket,2023-03-01 17:34:13.313915
+18,karan,POST,download_and_upload_s3_file,200,File uploaded to damg7245-noaa-assignment at nexrad/KHGX19940101_000124.gz,2023-03-01 17:34:16.706463
+19,karan,PUT,update_subscription,200,"Subscription updated: service=Platinum - (100$), calls_remaining=30",2023-03-01 17:34:28.786381
+20,rishabh,GET,get_file_names_geos,200,Number of files: 192,2023-03-01 19:10:23.222064
+21,rishabh,GET,get_file_names_geos,200,Number of files: 192,2023-03-01 19:10:32.730334
+22,rishabh,POST,get_goes_url,200,File found in GEOS-18 S3 bucket,2023-03-01 19:10:34.436675
+23,rishabh,POST,download_and_upload_s3_file,200,File uploaded to damg7245-noaa-assignment at goes/OR_ABI-L1b-RadC-M6C01_G18_s20230040001175_e20230040003552_c20230040003591.nc,2023-03-01 19:10:42.447889
+24,rishabh,GET,get_file_names_nexrad,200,Number of files: 175,2023-03-01 19:10:57.647890
+25,rishabh,POST,get_nexrad_url,200,File found in NEXRAD S3 bucket,2023-03-01 19:11:01.149988
+26,rishabh,POST,download_and_upload_s3_file,200,File uploaded to damg7245-noaa-assignment at nexrad/KABR20140101_000603_V06.gz,2023-03-01 19:11:06.581734
+27,rishabh,PUT,update_subscription,200,"Subscription updated: service=Platinum - (100$), calls_remaining=23",2023-03-01 19:11:22.692975
+28,lokesh,PUT,update_subscription,200,"Subscription updated: service=Platinum - (100$), calls_remaining=23",2023-03-01 23:22:48.559330
+29,lokesh,GET,get_file_names_geos,200,Number of files: 192,2023-03-02 00:38:23.928941
+30,lokesh,POST,get_goes_url,200,File found in GEOS-18 S3 bucket,2023-03-02 00:38:27.923701
+31,lokesh,POST,download_and_upload_s3_file,200,File uploaded to damg7245-noaa-assignment at goes/OR_ABI-L1b-RadC-M6C01_G18_s20230070531180_e20230070533558_c20230070534005.nc,2023-03-02 00:38:30.142485
+32,lokesh,GET,get_file_names_nexrad,200,Number of files: 150,2023-03-02 00:38:48.556695
+33,lokesh,POST,get_nexrad_url,200,File found in NEXRAD S3 bucket,2023-03-02 00:38:51.143145
+34,lokesh,POST,download_and_upload_s3_file,200,File uploaded to damg7245-noaa-assignment at nexrad/KATX19960608_000647.gz,2023-03-02 00:38:54.010808
