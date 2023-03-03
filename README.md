@@ -211,3 +211,8 @@ To run this project, you will need:
 - /get_file_names_nexrad (GET): Given a year, month, day, and station ID, returns a list of all file names matching the specified parameters for the NEXRAD level 2 files.
 
 - /download_and_upload_s3_file (POST): Downloads a file from a specified S3 bucket and uploads it to another specified S3 bucket. If the file already exists in the destination bucket, the function returns a download URL for the existing file. Otherwise, it uploads the file and returns
+
+
+ATTESTATION:
+
+WE ATTEST THAT WE HAVEN’T USED ANY OTHER STUDENTS’ WORK IN OUR ASSIGNMENT AND ABIDE BY THE POLICIES LISTED IN THE STUDENT HANDBOOK.
