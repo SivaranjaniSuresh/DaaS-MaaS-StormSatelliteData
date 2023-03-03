@@ -187,39 +187,39 @@ To run this project, you will need:
 # aerodash-v1: A Command Line Interface (CLI) Tool for Effortlessly Fetching and Downloading Weather Data from AWS S3 Buckets!
 
 ## Installation
-'''
+```
 pip install aerodash-v1
-'''
+```
 
 ## Usage
 ### Sign Up
 
 To sign up, run the command below:
-'''
+```
 aerodash-v1 create_user
-'''
+```
 
 This command prompts the user to enter their details such as username, password, mobile, subscription type, and credit card details. The subscription type options are:
-Platinum - (100$)
-Gold - (50$)
-Free - (0$)
+- Platinum - (100$)
+- Gold - (50$)
+- Free - (0$)
 Depending on the subscription type chosen, users are assigned an API call limit.
 
 ### Sign In
 
 To sign in and get the remaining API calls limit, run the command below:
-'''
+```
 aerodash-v1 api_calls_limit
-'''
+```
 This command prompts the user to enter their username and password. On successful login, the remaining API calls are displayed.
 
 ### fetch files
 
 To fetch files from the noaa-goes18 or noaa-nexrad-level2 bucket, run the command below:
 
-'''
+```
 aerodash-v1 fetch DATATYPE YEAR [MONTH] DAY [HOUR] [STATION]
-'''
+```
 
 - DATATYPE: The type of data to fetch. It can either be geos18 or nexrad.
 - YEAR: The year to fetch files for.
@@ -232,31 +232,31 @@ The command will prompt the user to enter their username and password. On succes
 ### download files
 
 To download a file from the noaa-goes18 or noaa-nexrad-level2 bucket, run the command below:
-'''
+```
 aerodash download FILE_NAME
-'''
+```
 
 - FILE_NAME: The name of the file to download.
 The command will prompt the user to enter their username and password. On successful login, the file is downloaded from the public S3 bucket to a personal S3 bucket, and the download link is displayed.
 
 ### Upgrade Subscription
 To upgrade a user's subscription plan, run the command below:
-'''
+```
 aerodash-v1 plan_upgrade
-'''
+```
 The command will prompt the user to enter their username and password. On successful login, the user's remaining API calls are displayed.
 The user is then prompted to select a new subscription plan. The subscription plan options are:
-Platinum - (100$)
-Gold - (50$)
-Free - (0$)
+- Platinum - (100$)
+- Gold - (50$)
+- Free - (0$)
 Depending on the subscription type chosen, the user's API call limit is updated.
 
 ### Forgot Password
 
 To update a user's password, run the command below:
-'''
+```
 aerodash-v1 forgot_password
-'''
+```
 
 The command prompts the user to enter their username and new password. If the user is found, their password is updated.
 
