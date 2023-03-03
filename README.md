@@ -14,6 +14,7 @@ Sivaranjani S | 002742197 | 25%
 - Streamlit Application - http://34.138.127.169:8000
 - FAST API Swagger - http://34.138.127.169:8090/docs
 - Airflow - http://34.138.127.169:8080
+- aerodash-v1 CLI Package - https://pypi.org/project/aerodash-v1/
 - Codelabs - https://codelabs-preview.appspot.com/?file_id=1mPO4eRzOcW-gX3h9eOkG1JFah6zdAHt6PP7OmzoeocA#25
 
 # Project Tree
